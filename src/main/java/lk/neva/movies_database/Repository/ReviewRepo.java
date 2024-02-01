@@ -6,7 +6,6 @@ import org.springframework.stereotype.Repository;
 import lk.neva.movies_database.Model.Review;
 
 @Repository
-public interface ReviewRepo extends JpaRepository<Review,Integer> {
+public interface ReviewRepo extends JpaRepository<Review, Integer> {
 
-    
 }

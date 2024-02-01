@@ -1,17 +1,17 @@
 package lk.neva.movies_database.Controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class PageController {
 
-    @GetMapping("/home")
+    @RequestMapping("/home")
     public String home() {
         return "home";
     }
 
-    @GetMapping("/rating")
+    @RequestMapping("/rating")
     public String rating() {
         return "rating";
     }

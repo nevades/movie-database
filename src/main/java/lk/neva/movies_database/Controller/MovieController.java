@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @RestController
 @RequestMapping("/movies")
 public class MovieController {
-    
+
     @Autowired
     private MovieService service;
 
