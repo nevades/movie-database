@@ -19,6 +19,10 @@ public class MovieService {
         return repository.findAll();
     }
 
+    public List<Movie> findFeaturedMovies() {
+        return repository.findBymovieFeatured("true");
+    }
+
     public Optional<Movie> findBymovieImdb(String imdbId) {
         return repository.findBymovieImdb(imdbId);
     }

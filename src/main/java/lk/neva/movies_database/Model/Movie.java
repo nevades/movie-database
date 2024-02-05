@@ -29,9 +29,11 @@ public class Movie {
     private Integer id;
 
     private String movieName;
+    private Integer movieYear;
     private String movieImdb;
     private String movieTrailer;
     private String movieGenre;
+    private String movieFeatured;
     @CreatedBy
     private Integer entBy;
     @CreatedDate
